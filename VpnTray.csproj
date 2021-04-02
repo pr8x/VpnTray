@@ -15,4 +15,16 @@
     <PackageReference Include="DotRas.for.Win10" Version="2.0.0-preview-298" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="check.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="off.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="on.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
